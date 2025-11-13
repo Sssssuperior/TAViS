@@ -17,8 +17,8 @@ pip install -r requirements.txt
 ```
 
 ## Start Training
-For training, please run the following scripts and change the visible device accroding to yourself.
-The subset can change to [s4, ms3, v2] for different setting. 
+For training, please run the following scripts and change the visible device according to yourself.
+The subset can change to [s4, ms3, v2] for different settings.
 ```
 CUDA_VISIBLE_DEVICES=1,2 torchrun --nproc_per_node=2 --nnodes=1 --node_rank=0 --master_port=25638 train_avs.py --subset "s4"  --name "s4" --config configs/sam_avs_adapter.yaml --pretrained_weights "./model_epoch_best.pth"
 ```
@@ -29,6 +29,7 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node=1 --nnodes=1 --node_rank=0 --ma
 
 ## Citation
 If you use VSCode in your research or wish to refer to the baseline results published in the Model Zoo, please use the following BibTeX entry.
+If you have any questions, please contact me: ziayangluo1110@gmail.com
 ```
 @InProceedings{Luo_2025_ICCV,
     author    = {Luo, Ziyang and Liu, Nian and Yang, Xuguang and Khan, Salman and Anwer, Rao Muhammad and Cholakkal, Hisham and Khan, Fahad Shahbaz and Han, Junwei},
