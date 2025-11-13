@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node=1 --nnodes=1 --node_rank=0 --ma
 
 ## Citation
 If you use TAViS in your research or wish to refer to the baseline results, please use the following BibTeX entry.
-If you have any questions, please contact me: ziayangluo1110@gmail.com
+If you have any questions, please contact me: ziyangluo1110@gmail.com
 ```
 @InProceedings{Luo_2025_ICCV,
     author    = {Luo, Ziyang and Liu, Nian and Yang, Xuguang and Khan, Salman and Anwer, Rao Muhammad and Cholakkal, Hisham and Khan, Fahad Shahbaz and Han, Junwei},
