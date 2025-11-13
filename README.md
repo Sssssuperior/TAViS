@@ -1,6 +1,6 @@
 <div align="center">
 
-# [ICCV 2025] TAViS: Text-bridged Audio-Visual Segmentation with Foundation Models
+# TAViS: Text-bridged Audio-Visual Segmentation with Foundation Models
 
 **Approach**: [[Conference Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Luo_TAViS_Text-bridged_Audio-Visual_Segmentation_with_Foundation_Models_ICCV_2025_paper.pdf) |  [[arxiv Paper]](https://arxiv.org/pdf/2506.11436)
 
