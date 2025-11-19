@@ -1,6 +1,6 @@
 <div align="center">
 
-# TAViS: Text-bridged Audio-Visual Segmentation with Foundation Models
+# [ICCV2025] TAViS: Text-bridged Audio-Visual Segmentation with Foundation Models
 
 **Approach**: [[Conference Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Luo_TAViS_Text-bridged_Audio-Visual_Segmentation_with_Foundation_Models_ICCV_2025_paper.pdf) |  [[arxiv Paper]](https://arxiv.org/pdf/2506.11436)
 
@@ -26,6 +26,17 @@ For testing,
 ```
 CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node=1 --nnodes=1 --node_rank=0 --master_port=25628 test_avs.py --subset "ms3"  --name "ms3" --eval "./ckpts/model_epoch_last.pth"
 ```
+
+## 🎃 Results
+**Due to the limited storage capacity of my Google Drive, I am unable to upload additional files there. If you can only access the data via Google Drive and are unable to use Baidu Cloud, please contact me by email. (ziyangluo1110@gmail.com).**
+
+| Name | Set | Image Size | Weight |
+|  :---: |  :---:    | :---:   |  :---:   |
+| TAViS |  s4    |  224   |  [[baidu](),PIN:]|
+| TAViS |  ms3    |  224   |  [[baidu](),PIN:]/|
+| TAViS |  s4    |  1024  |  [[baidu](),PIN:]/|
+| TAViS |  ms3    |  1024  |  [[baidu](),PIN:]|
+
 
 ## Citation
 If you use TAViS in your research or wish to refer to the baseline results, please use the following BibTeX entry.
