@@ -33,9 +33,7 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node=1 --nnodes=1 --node_rank=0 --ma
 | Name | Set | Image Size | Weight |
 |  :---: |  :---:    | :---:   |  :---:   |
 | TAViS |  s4    |  224   |  [[baidu](),PIN:]|
-| TAViS |  ms3    |  224   |  [[baidu](),PIN:]/|
-| TAViS |  s4    |  1024  |  [[baidu](),PIN:]/|
-| TAViS |  ms3    |  1024  |  [[baidu](),PIN:]|
+| TAViS |  ms3    |  224   |  [[baidu](https://pan.baidu.com/s/1pBNo0RSaO0ufu86fA9w1UQ?pwd=dm2u),PIN:dm2u]|
 
 
 ## Citation
