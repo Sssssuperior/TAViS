@@ -28,17 +28,16 @@ CUDA_VISIBLE_DEVICES=0 torchrun --nproc_per_node=1 --nnodes=1 --node_rank=0 --ma
 ```
 
 ## 🎃 Results
-**Due to the limited storage capacity of my Google Drive, I am unable to upload additional files there. If you can only access the data via Google Drive and are unable to use Baidu Cloud, please contact me by email. (ziyangluo1110@gmail.com).**
-
 | Name | Set | Image Size | Weight |
 |  :---: |  :---:    | :---:   |  :---:   |
-| TAViS |  s4    |  224   |  [[baidu](),PIN:]|
+| TAViS |  s4    |  224   |  [[GeogleDrive](https://drive.google.com/file/d/1gTdAMvqHT6uK6EOI8NSAucSa1m8bVw3t/view?usp=drive_link)]|
 | TAViS |  ms3    |  224   |  [[baidu](https://pan.baidu.com/s/1pBNo0RSaO0ufu86fA9w1UQ?pwd=dm2u),PIN:dm2u]|
+| TAViS |  v2    |  224   |  [[GeogleDrive](https://drive.google.com/file/d/1seSe2_2nz-_lcdleexAdRAoWuR8jIj45/view?usp=sharing  )]|
 
 
 ## Citation
 If you use TAViS in your research or wish to refer to the baseline results, please use the following BibTeX entry.
-If you have any questions, please contact me: ziyangluo1110@gmail.com
+**If you have any questions, please contact me: ziyangluo1110@gmail.com. I don't often visit GitHub.**
 ```
 @InProceedings{Luo_2025_ICCV,
     author    = {Luo, Ziyang and Liu, Nian and Yang, Xuguang and Khan, Salman and Anwer, Rao Muhammad and Cholakkal, Hisham and Khan, Fahad Shahbaz and Han, Junwei},
